@@ -1,0 +1,84 @@
+:root {
+
+  --black: #000000ff;
+--eerie-black: #212121ff;
+--eerie-black-2: #222222ff;
+--onyx: #404040ff;
+--davys-grey: #565656ff;
+--quick-silver: #a6a6a6ff;
+--gray-x-11-gray: #b9b9b9ff;
+--light-gray: #d7d7d7ff;
+--platinum: #e9e9e9ff;
+--cultured: #f7f7f7ff;
+
+
+  --silver-metallic: #b3b3bdff;
+  --upsdell-red: #a9232aff;
+  --sweet-brown: #ac383aff;
+  --lavender-gray: #d0d2dbff;
+  --raisin-black: #23181cff;
+
+  --rich-black-fogra-29: #000814ff;
+  --oxford-blue: #001d3dff;
+  --prussian-blue: #003566ff;
+  --mikado-yellow: #ffc300ff;
+  --gold-web-golden: #ffd60aff;
+
+  --space-cadet: #2b2d42ff;
+  --manatee: #8d99aeff;
+  --cultured: #edf2f4ff;
+  --imperial-red: #ef233cff;
+  --amaranth-red: #d90429ff;
+
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
