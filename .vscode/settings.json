@@ -3,5 +3,12 @@
 {
   "css.customData": [
     ".vscode/css_custom_data.json"
-  ]
+  ],
+
+    "css.lint.unknownAtRules": "ignore",
+    "css.validate": true,
+    "scss.validate": true,
+    "editor.quickSuggestions": {
+      "strings": true
+    }
 }
